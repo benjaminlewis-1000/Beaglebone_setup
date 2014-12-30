@@ -1,10 +1,9 @@
 #! /bin/bash
 
-pushd
+pushd /usr/share
 
 apt-get install unzip
 
-cd /usr/share
 mv fonts fonts.bak
 mkdir fonts
 
