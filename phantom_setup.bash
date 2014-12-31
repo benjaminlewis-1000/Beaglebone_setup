@@ -9,10 +9,10 @@ mkdir fonts
 
 apt-get install --reinstall ttf-mscorefonts-installer
 
-sudo rm /usr/share/fonts/truetype/msttcorefonts/andalemo.ttf
-sudo rm /usr/share/fonts/truetype/msttcorefonts/Andale_Mono.ttf
+rm /usr/share/fonts/truetype/msttcorefonts/andalemo.ttf
+rm /usr/share/fonts/truetype/msttcorefonts/Andale_Mono.ttf
 
-sudo fc-cache -rv
+fc-cache -rv
 
 popd
 
