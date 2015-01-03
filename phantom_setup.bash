@@ -21,3 +21,8 @@ cp phantomjs /usr/bin
 cd ~
 echo "alias phantomjs='phantomjs --ssl-protocol=any '" >> ~/.bashrc
 source ~/.bashrc
+
+cd /usr/bin
+git clone git://github.com/n1k0/casperjs.git
+cd casperjs
+ln -sf `pwd`/bin/casperjs /usr/local/bin/casperjs
