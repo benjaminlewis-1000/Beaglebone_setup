@@ -17,3 +17,7 @@ fc-cache -rv
 popd
 
 cp phantomjs /usr/bin 
+
+cd ~
+echo "alias phantomjs='phantomjs --ssl-protocol=any '" >> ~/.bashrc
+source ~/.bashrc
